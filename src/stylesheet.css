@@ -379,7 +379,7 @@ p.jmb2btn {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.012em;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 18px;
     text-indent: -0.02em;
     line-height: 1.4;
 }
@@ -524,4 +524,18 @@ p.jmb2btn {
 .border_slide_btn1:hover::after {
     transform-origin: left top;
     transform: scale(1, 1);
+}
+
+/* 丸いプロフィール画像 */
+div.image_circle {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    background: center;
+    background-size: 200px;
+    background-position: center;
+    border-radius: 50%;
+    background-image: url(https://user-images.githubusercontent.com/96368274/188559740-da313331-9cd4-494e-92c5-86f2bc0d4b53.JPG);
 }
