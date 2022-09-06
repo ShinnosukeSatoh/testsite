@@ -222,7 +222,7 @@ h1.maintext {
     color: #FFF;
     text-indent: -0.03em;
     line-height: 1;
-    padding: 2rem 0rem 1rem 0rem;
+    padding: 2.5rem 0rem 1rem 0rem;
 }
 
 
@@ -548,7 +548,7 @@ div.image_circle {
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 5rem 0rem 4rem 0rem;
+    padding: 4rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
@@ -561,7 +561,7 @@ div.image_circle {
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 5rem 0rem 4rem 0rem;
+    padding: 4rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
