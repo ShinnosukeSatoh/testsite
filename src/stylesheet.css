@@ -546,6 +546,7 @@ div.image_circle {
 
 /* フルスクリーンスクロール */
 .wrap {
+    scroll-behavior: smooth;
     overflow: scroll;
     /* .wrap内をスクロール可能にする。必要です */
     scroll-snap-type: y mandatory;
@@ -574,19 +575,24 @@ div.image_circle {
     letter-spacing: .1em;
 }
 
-.section:nth-of-type(odd) {
-    background-color: #272C35;
-    color: #fff;
-}
-
-.section:nth-of-type(even) {
-    background-color: #FAFAFA;
-    color: #2a2a2a;
-}
-
-main {
+.section:nth-of-type(5n-2) {
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188546264-cc93f585-0f39-43f4-8856-8689f4a9154f.JPG) 60% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 9rem 0rem 4rem 0rem;
     height: 100vh;
-    overflow: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.section:nth-of-type(5n-3) {
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188639556-8e5bb8cf-3d27-4fd3-9ddf-80a9057f84d3.jpg) 50% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 9rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
 }
