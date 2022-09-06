@@ -584,3 +584,8 @@ div.image_circle {
     background-color: #FAFAFA;
     color: #2a2a2a;
 }
+
+html {
+    /* スムーススクロール */
+    scroll-behavior: smooth;
+}
