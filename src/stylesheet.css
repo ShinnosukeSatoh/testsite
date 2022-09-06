@@ -570,7 +570,6 @@ div.image_circle {
 /* 以下はレイアウト用 */
 .section {
     font-size: 30px;
-    font-weight: bold;
     display: flex;
     letter-spacing: .1em;
 }
@@ -585,7 +584,9 @@ div.image_circle {
     color: #2a2a2a;
 }
 
-html {
-    /* スムーススクロール */
+main {
+    height: 100vh;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
