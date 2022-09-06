@@ -193,7 +193,7 @@ p.jmb1 {
     p.jmb1 {
         font-family: 'Inter', sans-serif;
         letter-spacing: -0.020em;
-        font-size: 6.2vw;
+        font-size: 48px;
         color: #FFF;
         text-indent: -0.03em;
         line-height: 1;
@@ -208,7 +208,7 @@ p.jmb1btn {
     color: #FFF;
     text-indent: -0.03em;
     line-height: 1;
-    padding: 2rem 0rem 0rem 0rem;
+    padding: 1rem 0rem 0rem 0rem;
 }
 
 @media only screen and (max-width:992px) {
@@ -219,7 +219,7 @@ p.jmb1btn {
         color: #FFF;
         text-indent: -0.03em;
         line-height: 1;
-        padding: 2rem 0rem 0rem 0rem;
+        padding: 1rem 0rem 0rem 0rem;
     }
 }
 
