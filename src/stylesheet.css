@@ -294,29 +294,41 @@ p.jmb2btn {
 
 
 /*レスポンシブカラム*/
+.col {
+    margin-bottom: 20px;
+}
+
+.col-12 {
+    margin-bottom: 20px;
+}
+
 .col-md-3 {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .col-md-4 {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.col-lg {
+    margin-bottom: 20px;
 }
 
 .col-lg-4 {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .col-lg-6 {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .col-lg-8 {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .o-3column h2 {
@@ -360,9 +372,10 @@ p.jmb2btn {
     background: #111111;
     border: 2px #FCFCFC solid;
     padding: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     color: #FCFCFC;
+    height: 100%;
 }
 
 .box:hover {
@@ -399,7 +412,7 @@ p.jmb2btn {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.031em;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 36px;
     text-indent: -0.03em;
     line-height: 1;
     margin-top: 12px;
@@ -441,7 +454,7 @@ p.jmb2btn {
         font-family: 'Inter', sans-serif;
         letter-spacing: -0.031em;
         font-weight: 700;
-        font-size: 4.0vw;
+        font-size: 3.2vw;
         text-indent: -0.03em;
         line-height: 1;
         margin-top: 12px;
