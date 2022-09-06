@@ -243,6 +243,19 @@ p.jmb2 {
     color: #FFF;
     text-indent: -0.03em;
     line-height: 1;
+    position: relative;
+    top: 60%;
+}
+
+@media only screen and (max-width:992px) {
+    p.jmb2 {
+        font-family: 'Inter', sans-serif;
+        letter-spacing: -0.020em;
+        font-size: 48px;
+        color: #FFF;
+        text-indent: -0.03em;
+        line-height: 1;
+    }
 }
 
 p.jmb2btn {
@@ -253,9 +266,20 @@ p.jmb2btn {
     color: #FFF;
     text-indent: -0.03em;
     line-height: 1;
-    padding: 2rem 0rem 0rem 0rem;
+    position: relative;
+    top: 60%;
 }
 
+@media only screen and (max-width:992px) {
+    p.jmb2btn {
+        font-family: 'Inter', sans-serif;
+        letter-spacing: -0.020em;
+        font-size: 24px;
+        color: #FFF;
+        text-indent: -0.03em;
+        line-height: 1;
+    }
+}
 
 
 /*コンテナの基本設定*/
