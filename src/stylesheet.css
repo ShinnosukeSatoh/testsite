@@ -111,74 +111,7 @@ body {
 }
 
 
-
-/*ジャンボトロンの基本設定*/
-.jumbotron {
-    border-radius: .0rem;
-    padding: 0rem 0rem 0rem 0rem;
-}
-
-@media only screen and (min-width:1100px) {
-    .jumbotron {
-        border-radius: .0rem;
-        padding: 0rem 0rem 0rem 0rem;
-    }
-}
-
-@media only screen and (min-width:1200px) {
-    .jumbotron {
-        border-radius: .0rem;
-        padding: 0rem 0rem 0rem 0rem;
-    }
-}
-
-
-
-/*ページトップのジャンボトロン1*/
-.jmb0wrap {
-    background: url(https://user-images.githubusercontent.com/96368274/188546264-cc93f585-0f39-43f4-8856-8689f4a9154f.JPG) 60% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 9rem 0rem 4rem 0rem;
-    height: 100vh;
-    width: 100%;
-}
-
-.jmb1wrap {
-    background: url(https://images.unsplash.com/photo-1440330033336-7dcff4630cef?ixlib=rb-1.2.1&auto=format&fit=crop&w=2771&q=80) center no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 9rem 0rem 4rem 0rem;
-    height: 100vh;
-    width: 100%;
-}
-
-@media only screen and (min-width:1100px) {
-    .jmb1wrap1 {
-        background: url(https://images.unsplash.com/photo-1440330033336-7dcff4630cef?ixlib=rb-1.2.1&auto=format&fit=crop&w=2771&q=80) center no-repeat;
-        background-size: cover;
-        border-radius: .0rem;
-        color: #FFF;
-        padding: 9rem 0rem 0rem 0rem;
-        height: 100vh;
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width:1200px) {
-    .jmb1wrap {
-        background: url(https://images.unsplash.com/photo-1440330033336-7dcff4630cef?ixlib=rb-1.2.1&auto=format&fit=crop&w=2771&q=80) center no-repeat;
-        background-size: cover;
-        border-radius: .0rem;
-        color: #FFF;
-        padding: 9rem 0rem 0rem 0rem;
-        height: 100vh;
-        width: 100%;
-    }
-}
-
+/*各ページの見出し*/
 p.jmb1 {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.033em;
@@ -221,18 +154,6 @@ p.jmb1btn {
         line-height: 1;
         padding: 1rem 0rem 0rem 0rem;
     }
-}
-
-
-
-/*ページトップのジャンボトロン2*/
-.jmb2wrap {
-    background: url(https://images.unsplash.com/photo-1508163356824-03f81a9d4e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80) center no-repeat;
-    background-size: cover;
-    max-height: 50vw;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 9rem 0rem 4rem 0rem;
 }
 
 p.jmb2 {
@@ -279,6 +200,18 @@ p.jmb2btn {
         text-indent: -0.03em;
         line-height: 1;
     }
+}
+
+
+/*メインの文章の設定*/
+p.maintext {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.033em;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    text-indent: -0.03em;
+    line-height: 1;
 }
 
 
@@ -582,6 +515,7 @@ div.image_circle {
 }
 
 .section {
+    display: flex;
     scroll-snap-align: start;
     background: url(https://user-images.githubusercontent.com/96368274/188546264-cc93f585-0f39-43f4-8856-8689f4a9154f.JPG) 60% no-repeat;
     background-size: cover;
@@ -593,15 +527,9 @@ div.image_circle {
 }
 
 /* 以下はレイアウト用 */
-.section {
-    font-size: 30px;
-    display: flex;
-    letter-spacing: .1em;
-}
-
 .section:nth-of-type(5n-2) {
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188546264-cc93f585-0f39-43f4-8856-8689f4a9154f.JPG) 60% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188647678-57b54f7d-c2fc-44ad-9c22-d6c954c4983a.jpg) 60% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -610,7 +538,19 @@ div.image_circle {
     width: 100%;
 }
 
+/* blur */
 .section:nth-of-type(5n-3) {
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188645195-30423b04-e496-4df0-8941-45f8ed9504e1.jpg) 60% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 9rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.section:nth-of-type(5n-1) {
     scroll-snap-align: start;
     background: url(https://user-images.githubusercontent.com/96368274/188639556-8e5bb8cf-3d27-4fd3-9ddf-80a9057f84d3.jpg) 50% no-repeat;
     background-size: cover;
