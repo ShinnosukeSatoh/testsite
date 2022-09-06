@@ -6,7 +6,7 @@ body {
 .site-header {
     display: flex;
     width: 100%;
-    height: 30px;
+    height: 36px;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.20);
     -webkit-backdrop-filter: saturate(120%) blur(10px);
@@ -32,9 +32,9 @@ body {
 .site-header p {
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: -0.015em;
-    line-height: 20px;
+    line-height: 24px;
     font-weight: 700;
     margin-top: 5px;
     margin-right: 5px;
@@ -136,7 +136,7 @@ body {
 
 /*ページトップのジャンボトロン1*/
 .jmb0wrap {
-    background: url(/Users/shin/Documents/Zoom/testsite/src/img/IMG_5914_R.JPG) center no-repeat;
+    background: url(https://raw.githubusercontent.com/ShinnosukeSatoh/testsite/main/src/img/IMG_5914_R.JPG) 60% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -302,6 +302,10 @@ p.jmb2btn {
     display: flex;
 }
 
+.col-md-6 {
+    display: flex;
+}
+
 .o-3column h2 {
     text-align: center;
     font-size: 12px;
@@ -341,7 +345,7 @@ p.jmb2btn {
 .box {
     position: relative;
     background: #111111;
-    border: 1px #FCFCFC solid;
+    border: 2px #FCFCFC solid;
     padding: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -349,7 +353,7 @@ p.jmb2btn {
 }
 
 .box:hover {
-    border: 1px #51C2BA solid;
+    border: 2px #51C2BA solid;
 }
 
 @media only screen and (max-width:992px) {
