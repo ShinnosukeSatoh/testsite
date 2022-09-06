@@ -296,14 +296,27 @@ p.jmb2btn {
 /*レスポンシブカラム*/
 .col-md-3 {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .col-md-4 {
     display: flex;
+    margin-bottom: 10px;
+}
+
+.col-lg-4 {
+    display: flex;
+    margin-bottom: 10px;
 }
 
 .col-lg-6 {
     display: flex;
+    margin-bottom: 10px;
+}
+
+.col-lg-8 {
+    display: flex;
+    margin-bottom: 10px;
 }
 
 .o-3column h2 {
@@ -453,6 +466,7 @@ p.jmb2btn {
     display: inline-block;
     color: #FFFFFF;
     text-decoration: none;
+
 }
 
 .border_slide_btn0:hover {
