@@ -285,14 +285,6 @@ p.jmb2btn {
 
 }
 
-.container logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-
-
-
 /*レスポンシブカラム*/
 .col {
     margin-bottom: 20px;
@@ -317,7 +309,6 @@ p.jmb2btn {
 }
 
 .col-lg-4 {
-    display: flex;
     margin-bottom: 20px;
 }
 
@@ -372,8 +363,8 @@ p.jmb2btn {
     background: #111111;
     border: 2px #FCFCFC solid;
     padding: 18px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     color: #FCFCFC;
     height: 100%;
 }
@@ -384,7 +375,7 @@ p.jmb2btn {
 
 @media only screen and (max-width:992px) {
     .box {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 }
 
@@ -392,7 +383,7 @@ p.jmb2btn {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.012em;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     text-indent: -0.02em;
     line-height: 1.4;
 }
@@ -415,8 +406,8 @@ p.jmb2btn {
     font-size: 36px;
     text-indent: -0.03em;
     line-height: 1;
-    margin-top: 12px;
-    margin-bottom: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     hyphens: manual;
 }
 
@@ -551,4 +542,20 @@ div.image_circle {
     background-position: center;
     border-radius: 50%;
     background-image: url(https://user-images.githubusercontent.com/96368274/188559740-da313331-9cd4-494e-92c5-86f2bc0d4b53.JPG);
+}
+
+/* セクション */
+.section1 {
+    margin: 0 auto;
+    background-color: #e8f8f8;
+}
+
+.section2 {
+    background-color: #c4e6ee;
+    height: 200px;
+}
+
+.section3 {
+    background-color: #e8f7f0;
+    height: 200px;
 }
