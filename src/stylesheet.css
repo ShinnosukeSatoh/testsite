@@ -559,3 +559,44 @@ div.image_circle {
     background-color: #e8f7f0;
     height: 200px;
 }
+
+/* フルスクリーンスクロール */
+.wrap {
+    overflow: scroll;
+    /* .wrap内をスクロール可能にする。必要です */
+    scroll-snap-type: y mandatory;
+    /* 縦軸にスナップさせる */
+    width: 100vw;
+    /* 横幅を画面いっぱいに */
+    height: 100vh;
+    /* 縦幅を画面いっぱいに */
+}
+
+.section {
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188546264-cc93f585-0f39-43f4-8856-8689f4a9154f.JPG) 60% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 9rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
+}
+
+/* 以下はレイアウト用 */
+.section {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    letter-spacing: .1em;
+}
+
+.section:nth-of-type(odd) {
+    background-color: #272C35;
+    color: #fff;
+}
+
+.section:nth-of-type(even) {
+    background-color: #FAFAFA;
+    color: #2a2a2a;
+}
