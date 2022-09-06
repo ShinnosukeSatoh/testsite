@@ -214,6 +214,17 @@ p.maintext {
     line-height: 1;
 }
 
+h1.maintext {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.033em;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF;
+    text-indent: -0.03em;
+    line-height: 1;
+    padding: 2rem 0rem 1rem 0rem;
+}
+
 
 /*コンテナの基本設定*/
 .container {
@@ -232,15 +243,6 @@ p.maintext {
     }
 }
 
-.container h2 {
-    font-family: 'Inter', 'Noto Sans JP', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #FCFCFC;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
 
 /*レスポンシブカラム*/
 .col {
@@ -526,37 +528,52 @@ div.image_circle {
     width: 100%;
 }
 
-/* 以下はレイアウト用 */
-.section:nth-of-type(5n-2) {
+/* 1ページ目の背景 */
+.section:nth-of-type(99n-98) {
+    display: flex;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188647678-57b54f7d-c2fc-44ad-9c22-d6c954c4983a.jpg) 60% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188546264-cc93f585-0f39-43f4-8856-8689f4a9154f.JPG) 60% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
     padding: 9rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
+}
+
+/* 2ページ目の背景 */
+.section:nth-of-type(99n-97) {
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188649286-4019e766-c88a-4708-8bfc-d5f1f4f31a75.JPG) 60% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 5rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
+}
+
+/* 3ページ目の背景 */
+/* 4ページ目の背景 */
+.section:nth-of-type(5n-2) {
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188647678-57b54f7d-c2fc-44ad-9c22-d6c954c4983a.jpg) 50% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 5rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
 
 /* blur */
-.section:nth-of-type(5n-3) {
-    scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188645195-30423b04-e496-4df0-8941-45f8ed9504e1.jpg) 60% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 9rem 0rem 4rem 0rem;
-    height: 100vh;
-    width: 100%;
-}
-
 .section:nth-of-type(5n-1) {
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188639556-8e5bb8cf-3d27-4fd3-9ddf-80a9057f84d3.jpg) 50% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188645195-30423b04-e496-4df0-8941-45f8ed9504e1.jpg) 50% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 9rem 0rem 4rem 0rem;
+    padding: 4rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
