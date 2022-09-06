@@ -544,22 +544,6 @@ div.image_circle {
     background-image: url(https://user-images.githubusercontent.com/96368274/188559740-da313331-9cd4-494e-92c5-86f2bc0d4b53.JPG);
 }
 
-/* セクション */
-.section1 {
-    margin: 0 auto;
-    background-color: #e8f8f8;
-}
-
-.section2 {
-    background-color: #c4e6ee;
-    height: 200px;
-}
-
-.section3 {
-    background-color: #e8f7f0;
-    height: 200px;
-}
-
 /* フルスクリーンスクロール */
 .wrap {
     overflow: scroll;
