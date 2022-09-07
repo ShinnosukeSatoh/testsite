@@ -492,24 +492,24 @@ h1.maintext {
     position: relative;
     width: auto;
     display: inline-block;
-    color: #51C2BA;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 .border_slide_btn1:hover {
     cursor: pointer;
-    color: #51C2BA;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 .border_slide_btn1::after {
     position: absolute;
-    bottom: -0.1em;
+    bottom: -0.02em;
     left: 0;
     content: '';
     width: 100%;
     height: 2px;
-    background: #51C2BA;
+    background: #FFFFFF;
     transform: scale(0, 1);
     transform-origin: right top;
     transition: transform .2s;
