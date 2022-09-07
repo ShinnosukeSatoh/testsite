@@ -119,7 +119,7 @@ body {
 p.jmb1 {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.033em;
-    font-size: 6.2vw;
+    font-size: 5.5vw;
     font-weight: 700;
     color: #FFF;
     text-indent: -0.03em;
@@ -561,7 +561,7 @@ div.image_circle {
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 7rem 0rem 4rem 0rem;
+    padding: 5rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
