@@ -604,8 +604,7 @@ div.image_circle {
 .section:nth-of-type(99n-96) {
     position: relative;
     scroll-snap-align: start;
-    /* background: url(https://user-images.githubusercontent.com/96368274/188647678-57b54f7d-c2fc-44ad-9c22-d6c954c4983a.jpg) 50% no-repeat; */
-    background: url(https://user-images.githubusercontent.com/96368274/188645195-30423b04-e496-4df0-8941-45f8ed9504e1.jpg) 50% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188882235-302bf06e-01f9-4ff3-9059-fb288054b1c2.jpg) 50% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -615,7 +614,7 @@ div.image_circle {
 }
 
 .section:nth-of-type(99n-96)::before {
-    background-color: rgba(0, 0, 0, .55);
+    background-color: rgba(0, 0, 0, .60);
     position: absolute;
     top: 0;
     right: 0;
@@ -628,7 +627,7 @@ div.image_circle {
 .section:nth-of-type(99n-95) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188771540-734c8607-8c5f-49a5-8ef4-5e788802bb1a.jpeg) 35% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188882457-673aebad-08c7-4f8f-b30a-eb7f41cc7d3d.jpg) 35% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -675,7 +674,7 @@ div.image_circle {
 .section:nth-of-type(99n-93) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188774154-9417eb55-e348-4523-994a-37dfb520f0aa.JPG) 65% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188882657-1a9c6368-b962-4591-9177-de70b0993dd1.jpg) 65% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -686,6 +685,52 @@ div.image_circle {
 
 .section:nth-of-type(99n-93)::before {
     background-color: rgba(0, 0, 0, .75);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+
+/* 7ページ目の背景 */
+.section:nth-of-type(99n-92) {
+    position: relative;
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188880622-52808cc1-a645-47c5-b4cf-8e5d0dfab829.jpg) 50% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 2.5rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.section:nth-of-type(99n-92)::before {
+    background-color: rgba(0, 0, 0, .70);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+
+/* 8ページ目の背景 */
+.section:nth-of-type(99n-91) {
+    position: relative;
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188843993-14b4b5a1-48f8-446d-ae37-19b21cf3aeaa.jpg) 45% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 2.5rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.section:nth-of-type(99n-91)::before {
+    background-color: rgba(0, 0, 0, .70);
     position: absolute;
     top: 0;
     right: 0;
