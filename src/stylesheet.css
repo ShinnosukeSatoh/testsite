@@ -738,3 +738,26 @@ div.image_circle {
     left: 0;
     content: ' ';
 }
+
+/* 9ページ目の背景 */
+.section:nth-of-type(99n-90) {
+    position: relative;
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188895735-7d1b1ca0-f75b-46fa-9da1-5b8aa76b1180.jpg) 48% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 2.5rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.section:nth-of-type(99n-90)::before {
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
