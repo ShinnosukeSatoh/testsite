@@ -730,7 +730,7 @@ div.image_circle {
 }
 
 .section:nth-of-type(99n-91)::before {
-    background-color: rgba(0, 0, 0, .70);
+    background-color: rgba(0, 0, 0, .45);
     position: absolute;
     top: 0;
     right: 0;
