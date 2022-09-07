@@ -6,7 +6,7 @@ body {
 .site-header {
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 30px;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.20);
     -webkit-backdrop-filter: saturate(120%) blur(10px);
@@ -32,9 +32,9 @@ body {
 .site-header p {
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     letter-spacing: -0.015em;
-    line-height: 38px;
+    line-height: 20px;
     font-weight: 700;
     margin-top: 5px;
     margin-right: 5px;
@@ -147,7 +147,7 @@ p.jmb1btn {
     color: #FFF;
     text-indent: -0.03em;
     line-height: 1;
-    padding: 1rem 0rem 0rem 0rem;
+    padding: 0.4rem 0rem 0rem 0rem;
     position: relative;
 }
 
@@ -159,7 +159,7 @@ p.jmb1btn {
         color: #FFF;
         text-indent: -0.03em;
         line-height: 1;
-        padding: 1rem 0rem 0rem 0rem;
+        padding: 0.4rem 0rem 0rem 0rem;
         position: relative;
     }
 }
@@ -326,6 +326,13 @@ h1.maintext {
 
 /*カラムの中のボックス*/
 .container p:lang(en) {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.020em;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    text-indent: -0.03em;
+    line-height: 1.5;
     position: relative;
 }
 
@@ -561,7 +568,7 @@ div.image_circle {
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 4rem 0rem 4rem 0rem;
+    padding: 4.5rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
@@ -573,7 +580,7 @@ div.image_circle {
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 3rem 0rem 4rem 0rem;
+    padding: 2.5rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
@@ -596,7 +603,7 @@ div.image_circle {
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 3rem 0rem 4rem 0rem;
+    padding: 2.5rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
@@ -618,7 +625,7 @@ div.image_circle {
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 3rem 0rem 4rem 0rem;
+    padding: 2.5rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
@@ -663,7 +670,7 @@ div.image_circle {
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 3rem 0rem 4rem 0rem;
+    padding: 2.5rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
 }
