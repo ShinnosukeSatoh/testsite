@@ -120,6 +120,7 @@ p.jmb1 {
     color: #FFF;
     text-indent: -0.03em;
     line-height: 1;
+    position: relative;
 }
 
 @media only screen and (max-width:992px) {
@@ -130,6 +131,7 @@ p.jmb1 {
         color: #FFF;
         text-indent: -0.03em;
         line-height: 1;
+        position: relative;
     }
 }
 
@@ -142,6 +144,7 @@ p.jmb1btn {
     text-indent: -0.03em;
     line-height: 1;
     padding: 1rem 0rem 0rem 0rem;
+    position: relative;
 }
 
 @media only screen and (max-width:992px) {
@@ -153,6 +156,7 @@ p.jmb1btn {
         text-indent: -0.03em;
         line-height: 1;
         padding: 1rem 0rem 0rem 0rem;
+        position: relative;
     }
 }
 
@@ -176,6 +180,7 @@ p.jmb2 {
         color: #FFF;
         text-indent: -0.03em;
         line-height: 1;
+        position: relative;
     }
 }
 
@@ -199,6 +204,7 @@ p.jmb2btn {
         color: #FFF;
         text-indent: -0.03em;
         line-height: 1;
+        position: relative;
     }
 }
 
@@ -212,6 +218,7 @@ p.maintext {
     color: #FFF;
     text-indent: -0.03em;
     line-height: 1;
+    position: relative;
 }
 
 h1.maintext {
@@ -223,6 +230,7 @@ h1.maintext {
     text-indent: -0.03em;
     line-height: 1;
     padding: 2.5rem 0rem 1rem 0rem;
+    position: relative;
 }
 
 
@@ -313,6 +321,10 @@ h1.maintext {
 
 
 /*カラムの中のボックス*/
+.container p:lang(en) {
+    position: relative;
+}
+
 .box span {
     display: inline-block;
 }
@@ -345,6 +357,7 @@ h1.maintext {
     font-size: 16px;
     text-indent: -0.02em;
     line-height: 1.4;
+    position: relative;
 }
 
 .box h1:lang(ja) {
@@ -356,6 +369,7 @@ h1.maintext {
     line-height: 1.2;
     margin-top: 9px;
     margin-bottom: 5px;
+    position: relative;
 }
 
 .box h1:lang(en) {
@@ -368,6 +382,7 @@ h1.maintext {
     margin-top: 1px;
     margin-bottom: 1px;
     hyphens: manual;
+    position: relative;
 }
 
 @media only screen and (min-width:992px) {
@@ -378,6 +393,7 @@ h1.maintext {
         font-size: 19px;
         text-indent: -0.02em;
         line-height: 1.4;
+        position: relative;
     }
 
     .box p:lang(ja) {
@@ -387,6 +403,7 @@ h1.maintext {
         font-size: 16px;
         text-indent: -0.02em;
         line-height: 1.6;
+        position: relative;
     }
 
     .box h1:lang(ja) {
@@ -398,6 +415,7 @@ h1.maintext {
         line-height: 1.2;
         margin-top: 9px;
         margin-bottom: 5px;
+        position: relative;
     }
 
     .box h1:lang(en) {
@@ -409,6 +427,7 @@ h1.maintext {
         line-height: 1;
         margin-top: 12px;
         margin-bottom: 5px;
+        position: relative;
     }
 }
 
@@ -420,6 +439,7 @@ h1.maintext {
     line-height: 1.2;
     margin-top: 9px;
     margin-bottom: 5px;
+    position: relative;
 }
 
 /*ボタン*/
@@ -517,6 +537,7 @@ div.image_circle {
 }
 
 .section {
+    position: relative;
     display: flex;
     scroll-snap-align: start;
     background: url(https://user-images.githubusercontent.com/96368274/188546264-cc93f585-0f39-43f4-8856-8689f4a9154f.JPG) 60% no-repeat;
@@ -544,31 +565,29 @@ div.image_circle {
 /* 2ページ目の背景 */
 .section:nth-of-type(99n-97) {
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188649286-4019e766-c88a-4708-8bfc-d5f1f4f31a75.JPG) 60% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188769880-e4075f1e-ff2e-46e3-9e1c-2039086ba59b.JPG) 73% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
     padding: 4rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
+}
+
+.section:nth-of-type(99n-97)::before {
+    background-color: rgba(0, 0, 0, .65);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
 }
 
 /* 3ページ目の背景 */
-/* 4ページ目の背景 */
-.section:nth-of-type(5n-2) {
+.section:nth-of-type(99n-96) {
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188647678-57b54f7d-c2fc-44ad-9c22-d6c954c4983a.jpg) 50% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 4rem 0rem 4rem 0rem;
-    height: 100vh;
-    width: 100%;
-}
-
-/* blur */
-.section:nth-of-type(5n-1) {
-    scroll-snap-align: start;
+    /* background: url(https://user-images.githubusercontent.com/96368274/188647678-57b54f7d-c2fc-44ad-9c22-d6c954c4983a.jpg) 50% no-repeat; */
     background: url(https://user-images.githubusercontent.com/96368274/188645195-30423b04-e496-4df0-8941-45f8ed9504e1.jpg) 50% no-repeat;
     background-size: cover;
     border-radius: .0rem;
@@ -576,4 +595,59 @@ div.image_circle {
     padding: 4rem 0rem 4rem 0rem;
     height: 100vh;
     width: 100%;
+}
+
+.section:nth-of-type(99n-96)::before {
+    background-color: rgba(0, 0, 0, .55);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+
+/* 4ページ目の背景 */
+.section:nth-of-type(99n-95) {
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188771540-734c8607-8c5f-49a5-8ef4-5e788802bb1a.jpeg) 35% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 4rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.section:nth-of-type(99n-95)::before {
+    background-color: rgba(0, 0, 0, .63);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+
+
+/* 5ページ目の背景 */
+.section:nth-of-type(99n-94) {
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188768760-0e22c06b-3912-4681-aced-cbe18a5d2dd7.JPG) 73% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 4rem 0rem 4rem 0rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.section:nth-of-type(99n-94)::before {
+    background-color: rgba(0, 0, 0, .60);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
 }
