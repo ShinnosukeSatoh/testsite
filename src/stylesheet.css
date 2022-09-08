@@ -532,12 +532,14 @@ div.image_circle {
     scroll-behavior: smooth;
     overflow: scroll;
     /* .wrap内をスクロール可能にする。必要です */
-    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
     /* 縦軸にスナップさせる */
     width: 100vw;
     /* 横幅を画面いっぱいに */
     height: 100vh;
     /* 縦幅を画面いっぱいに */
+    max-height: 100vh;
+    overflow-y: scroll;
 }
 
 .section {
