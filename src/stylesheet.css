@@ -242,6 +242,7 @@ h1.maintext {
 .container {
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 50px;
 }
 
 @media (min-width: 1260px) {
@@ -650,23 +651,22 @@ div.image_circle {
     content: ' ';
 }
 
-
 /* 5ページ目の背景 */
 .section:nth-of-type(99n-94) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188768760-0e22c06b-3912-4681-aced-cbe18a5d2dd7.JPG) 73% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/189119134-80971801-2a8a-4496-b27d-de8d71b7f956.jpg) 28% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 3rem 0rem 4rem 0rem;
+    padding: 2.5rem 0rem 4rem 0rem;
     min-height: 100vh;
     height: auto;
     width: 100%;
 }
 
 .section:nth-of-type(99n-94)::before {
-    background-color: rgba(0, 0, 0, .60);
+    background-color: rgba(0, 0, 0, .63);
     position: absolute;
     top: 0;
     right: 0;
@@ -679,18 +679,18 @@ div.image_circle {
 .section:nth-of-type(99n-93) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188882657-1a9c6368-b962-4591-9177-de70b0993dd1.jpg) 65% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188768760-0e22c06b-3912-4681-aced-cbe18a5d2dd7.JPG) 73% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
+    padding: 3rem 0rem 4rem 0rem;
     min-height: 100vh;
     height: auto;
     width: 100%;
 }
 
 .section:nth-of-type(99n-93)::before {
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .60);
     position: absolute;
     top: 0;
     right: 0;
@@ -703,7 +703,7 @@ div.image_circle {
 .section:nth-of-type(99n-92) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188880622-52808cc1-a645-47c5-b4cf-8e5d0dfab829.jpg) 50% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188882657-1a9c6368-b962-4591-9177-de70b0993dd1.jpg) 65% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -727,7 +727,7 @@ div.image_circle {
 .section:nth-of-type(99n-91) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188843993-14b4b5a1-48f8-446d-ae37-19b21cf3aeaa.jpg) 45% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188880622-52808cc1-a645-47c5-b4cf-8e5d0dfab829.jpg) 50% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -738,7 +738,7 @@ div.image_circle {
 }
 
 .section:nth-of-type(99n-91)::before {
-    background-color: rgba(0, 0, 0, .45);
+    background-color: rgba(0, 0, 0, .65);
     position: absolute;
     top: 0;
     right: 0;
@@ -751,7 +751,7 @@ div.image_circle {
 .section:nth-of-type(99n-90) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188895735-7d1b1ca0-f75b-46fa-9da1-5b8aa76b1180.jpg) 48% no-repeat;
+    background: url(https://user-images.githubusercontent.com/96368274/188843993-14b4b5a1-48f8-446d-ae37-19b21cf3aeaa.jpg) 45% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -762,6 +762,30 @@ div.image_circle {
 }
 
 .section:nth-of-type(99n-90)::before {
+    background-color: rgba(0, 0, 0, .45);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+
+/* 10ページ目の背景 */
+.section:nth-of-type(99n-89) {
+    position: relative;
+    scroll-snap-align: start;
+    background: url(https://user-images.githubusercontent.com/96368274/188895735-7d1b1ca0-f75b-46fa-9da1-5b8aa76b1180.jpg) 48% no-repeat;
+    background-size: cover;
+    border-radius: .0rem;
+    color: #FFF;
+    padding: 2.5rem 0rem 4rem 0rem;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+}
+
+.section:nth-of-type(99n-89)::before {
     background-color: rgba(0, 0, 0, .5);
     position: absolute;
     top: 0;
