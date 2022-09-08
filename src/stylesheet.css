@@ -536,8 +536,6 @@ div.image_circle {
     /* 縦軸にスナップさせる */
     width: 100vw;
     /* 横幅を画面いっぱいに */
-    height: 100vh;
-    /* 縦幅を画面いっぱいに */
     max-height: 100vh;
     overflow-y: scroll;
 }
@@ -575,7 +573,8 @@ div.image_circle {
     border-radius: .0rem;
     color: #FFF;
     padding: 4.5rem 0rem 4rem 0rem;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -588,7 +587,8 @@ div.image_circle {
     border-radius: .0rem;
     color: #FFF;
     padding: 2.5rem 0rem 4rem 0rem;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -611,7 +611,8 @@ div.image_circle {
     border-radius: .0rem;
     color: #FFF;
     padding: 2.5rem 0rem 4rem 0rem;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -634,7 +635,8 @@ div.image_circle {
     border-radius: .0rem;
     color: #FFF;
     padding: 2.5rem 0rem 4rem 0rem;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -658,7 +660,8 @@ div.image_circle {
     border-radius: .0rem;
     color: #FFF;
     padding: 3rem 0rem 4rem 0rem;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -681,7 +684,8 @@ div.image_circle {
     border-radius: .0rem;
     color: #FFF;
     padding: 2.5rem 0rem 4rem 0rem;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -704,7 +708,8 @@ div.image_circle {
     border-radius: .0rem;
     color: #FFF;
     padding: 2.5rem 0rem 4rem 0rem;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -727,7 +732,8 @@ div.image_circle {
     border-radius: .0rem;
     color: #FFF;
     padding: 2.5rem 0rem 4rem 0rem;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -750,7 +756,8 @@ div.image_circle {
     border-radius: .0rem;
     color: #FFF;
     padding: 2.5rem 0rem 4rem 0rem;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
