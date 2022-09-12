@@ -583,7 +583,7 @@ div.image_circle {
 .section:nth-of-type(99n-97) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188769880-e4075f1e-ff2e-46e3-9e1c-2039086ba59b.JPG) 73% no-repeat;
+    background: url(src/img/me_at_goddard.jpg) 73% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
