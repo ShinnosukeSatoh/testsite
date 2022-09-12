@@ -569,7 +569,7 @@ div.image_circle {
     position: relative;
     display: flex;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188546264-cc93f585-0f39-43f4-8856-8689f4a9154f.JPG) 60% no-repeat;
+    background: url(img/me_at_senten.jpg) 60% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -607,7 +607,7 @@ div.image_circle {
 .section:nth-of-type(99n-96) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188882235-302bf06e-01f9-4ff3-9059-fb288054b1c2.jpg) 50% no-repeat;
+    background: url(img/atlantis.jpg) 50% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -631,7 +631,7 @@ div.image_circle {
 .section:nth-of-type(99n-95) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188882457-673aebad-08c7-4f8f-b30a-eb7f41cc7d3d.jpg) 35% no-repeat;
+    background: url(img/c_complex_tohoku_u.jpg) 35% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -655,7 +655,7 @@ div.image_circle {
 .section:nth-of-type(99n-94) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/189119134-80971801-2a8a-4496-b27d-de8d71b7f956.jpg) 28% no-repeat;
+    background: url(img/shinjuku_gyoen.jpg) 28% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -679,7 +679,7 @@ div.image_circle {
 .section:nth-of-type(99n-93) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188768760-0e22c06b-3912-4681-aced-cbe18a5d2dd7.JPG) 73% no-repeat;
+    background: url(img/me_at_senten2.jpg) 73% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -703,7 +703,7 @@ div.image_circle {
 .section:nth-of-type(99n-92) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188882657-1a9c6368-b962-4591-9177-de70b0993dd1.jpg) 65% no-repeat;
+    background: url(img/discovery.jpg) 65% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -727,7 +727,7 @@ div.image_circle {
 .section:nth-of-type(99n-91) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188880622-52808cc1-a645-47c5-b4cf-8e5d0dfab829.jpg) 50% no-repeat;
+    background: url(img/me_at_cathedral.jpg) 50% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -751,7 +751,7 @@ div.image_circle {
 .section:nth-of-type(99n-90) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188843993-14b4b5a1-48f8-446d-ae37-19b21cf3aeaa.jpg) 45% no-repeat;
+    background: url(img/iitate.jpg) 45% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
@@ -775,7 +775,7 @@ div.image_circle {
 .section:nth-of-type(99n-89) {
     position: relative;
     scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188895735-7d1b1ca0-f75b-46fa-9da1-5b8aa76b1180.jpg) 48% no-repeat;
+    background: url(img/my_favorite_stuff.jpg) 48% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
