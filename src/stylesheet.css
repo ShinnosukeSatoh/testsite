@@ -514,6 +514,40 @@ h1.maintext {
     text-decoration: none;
 }
 
+/*ボタン2*/
+.border_slide_btn2 {
+    position: relative;
+    width: auto;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.border_slide_btn2:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.border_slide_btn2::after {
+    position: absolute;
+    bottom: 0.1em;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #FFFFFF;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .2s;
+}
+
+.border_slide_btn2:hover::after {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+
 /* 丸いプロフィール画像 */
 div.image_circle {
     position: relative;
